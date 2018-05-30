@@ -1,4 +1,5 @@
 import sys
+import config
 import limp
 import limp.errors
 import limp.environment
@@ -57,7 +58,7 @@ def _define(custom_symbols, environment):
 def _generate_help():
 
     def _help():
-        _FULL_COMMAND = f".{COMMAND}"
+        _FULL_COMMAND = f"{config.COMMAND_PREFIX}{COMMAND}"
         _REPOSITORY = f"https://www.github.com/byxor/limp"
         _BORDER = '=' * 10
 
