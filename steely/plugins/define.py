@@ -1,13 +1,7 @@
 #!/usr/bin/env python3
 
 '''
-.define [`code`] <command_name> <some text ...>
-.define list
 
-.define allows you to add commands which contains text.
-They can be accessed via ~<command_name>, and will output what you put in.
-
-.define code <text> will format the input as code.
 '''
 
 
@@ -22,6 +16,17 @@ CMD = Query()
 LIMIT = 20
 ANGRY_STRING = 'please use in form .define <command_name> <command text>'
 BAD_MEME_STRING = 'cannot use this image!'
+
+
+__doc__ = f"""
+{COMMAND} [`code`] <command_name> <some text ...>
+{COMMAND} list
+
+{COMMAND} allows you to add commands which contains text.
+They can be accessed via ~<command_name>, and will output what you put in.
+
+{COMMAND} code <text> will format the input as code.
+"""
 
 
 def try_define_image(text):
