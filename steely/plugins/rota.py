@@ -8,7 +8,7 @@ COMMAND = 'rota'
 __author__ = 'byxor'
 
 
-PEOPLE = ['Brandon', 'Aine', 'Matthew', 'Maria']
+PEOPLE = ['Maria', 'Aine', 'Matthew', 'Brandon']
 
 random.seed(420)
 random.shuffle(PEOPLE)
