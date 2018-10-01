@@ -3,11 +3,15 @@
 import random
 import datetime
 
+
 COMMAND = 'rota'
 __author__ = 'byxor'
 
+
+PEOPLE = ['Brandon', 'Aine', 'Matthew', 'Maria']
+
 random.seed(420)
-PEOPLE = random.shuffle(['Brandon', 'Aine', 'Matthew', 'Maria'])
+random.shuffle(PEOPLE)
 
 
 def main(bot, author_id, message, thread_id, thread_type, **kwargs):
