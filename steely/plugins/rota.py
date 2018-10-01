@@ -2,7 +2,6 @@
 
 import random
 import datetime
-import date
 
 COMMAND = 'rota'
 __author__ = 'byxor'
