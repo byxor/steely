@@ -19,7 +19,7 @@ def main(bot, author_id, message, thread_id, thread_type, **kwargs):
 
 
 def week():
-    d1 = datetime.now()
+    d1 = datetime.datetime.now()
     d2 = datetime.date(2018, 10, 1)
     return (d1-d2).days//7
 
