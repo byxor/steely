@@ -10,7 +10,7 @@ __author__ = 'byxor'
 
 PEOPLE = ['Maria', 'Aine', 'Matthew', 'Brandon']
 
-random.seed(420)
+random.seed(421)
 random.shuffle(PEOPLE)
 
 
